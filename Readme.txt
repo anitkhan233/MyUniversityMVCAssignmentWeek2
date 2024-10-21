@@ -1,4 +1,4 @@
-An ASP.NET MVC program for University consists of Students, Teachers, Units, Courses
+An ASP.NET MVC program for University consists of relational Students, Teachers, Units, Courses.
 
 Load below URL in the browser (Use your own respective port number) to view the outcome:
 
@@ -8,4 +8,6 @@ Note that "MVC 5 Controller with views, using Entity Framework" was used to auto
 
 Data has been stored and retrieved from database "MyUniversityMVCAssignmentWeek2Database".
 
-Please see the screenshot showing database tables and running snapshot of the program
+The Database "MyUniversityMVCAssignmentWeek2Database.mdf" has been added to the repository.
+
+Please see the screenshot "Running Picture StudentCourseUnitTeacherViewModels.jpeg" showing database tables and running snapshot of the program
