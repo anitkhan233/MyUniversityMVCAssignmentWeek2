@@ -1,0 +1,74 @@
+﻿@model MyUniversityMVCAssignmentWeek2.Models.Student
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentDateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentDateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentAdress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentAdress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EnrolmentStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnrolmentStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModeOfStudy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModeOfStudy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
